@@ -580,7 +580,7 @@
         ]
       },
       "signature": {
-        "multiple": false,
+        "multiple": true,
         "required": false,
         "types": [
           {
@@ -3961,6 +3961,10 @@
   {
     "type": "let",
     "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true
   },
   {
     "type": "match",
